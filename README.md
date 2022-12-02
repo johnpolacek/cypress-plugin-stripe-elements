@@ -23,7 +23,7 @@ yarn add --dev cypress-plugin-stripe-elements
 ```
 
 Set `{ "chromeWebSecurity": false }` in your `cypress.json` file, or the plugin
-will not work.
+will not work. If Cypress is running, you will have to restart. 
 
 Import the plugin in your `cypress/support/index.js` file:
 
